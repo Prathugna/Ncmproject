@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+       		    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+		    <li><a href="library.html">LIBRARY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>					
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+         <h1>About Us:</h1>
+    <div class="row">
+        <div class="about-col">
+            <h1>We provide best and quality education</h1>     
+            <p>"Education is the powerfull weapon which you can use to change the world"<br>-Nelson Mandela <br>Manasa Education Trust,Kollegal was founded in 1997 under the able leadershipo of Dr. S. Dattesh Kumar, with a noble intention of providing holistic education to the aspirants of Kollegal,Hanur and nearby Villages &Taluks</p>
+			<a href="https://youtu.be/G--j4kEfzYM?si=oZOTukax2cQJoAA5" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/slider.png">		
+        </div>
+    </div>    
+</section>
+<!----secretary message-----> 
+<div class="main-section about-secretary">
+   <img src="images/d.jpg" >
+   <div>
+      <h2 class="heading">About Our secretary</h2>
+      <p>Dr. S. Dattesh Kumar MA PhD
+Secretary
+Manasa Educational Trust ®
+Kollegal</p>
+<p>On behalf of the Manasa Educational Trust, I extend a warm welcome to all visitors to our website.
+At Manasa, we believe that education is the cornerstone of personal and societal growth. We are committed to providing a nurturing and stimulating environment where students can discover their passions, cultivate their talents, and develop into well-rounded individuals.
+Our institutions – Nisarga Vidyanikethana English Medium School, Nisarga PU College, Nisarga College of Management, and Nisarga Institute of Education – strive to impart holistic education that goes beyond academics. We emphasize critical thinking, creativity, and life skills, preparing our students to become responsible citizens and successful professionals.
+</p>
+   </div>
+</div>  
+
+<!----principal message----->
+<div class="main-section about-principal">
+   <img src="images/principal.jpg" >
+   <div>
+      <h2 class="heading">About Our principal</h2>
+      <p>Dr. Dhananjaya .D 
+principal,
+Nisarga college of management,Kollegal
+Manasa Educational Trust ®
+Kollegal</p>
+<p>princy messge
+</p>
+   </div>
+</div>  
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
