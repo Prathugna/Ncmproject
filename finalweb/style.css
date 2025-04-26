@@ -108,10 +108,7 @@
 /*---------- slider ends --------*/
 
 
-.h1{
-    font-size: 36px;
-    font-weight: 600;
-}
+
 
 nav{
 	min-height:100vn;
@@ -229,6 +226,10 @@ nav .fa{
     }
 }
 
+.h1{
+    font-size: 36px;
+    font-weight: 600;
+}
 /*---------- course --------*/
 
 .course{
