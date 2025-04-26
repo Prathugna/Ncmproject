@@ -108,8 +108,9 @@
 /*---------- slider ends --------*/
 
 
-.header h1{
-    margin-top: 50px;
+.h1{
+    font-size: 36px;
+    font-weight: 600;
 }
 
 nav{
