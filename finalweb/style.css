@@ -121,6 +121,11 @@
 
 /*---------- slider ends --------*/
 
+
+.header h1{
+    margin-top: 50px;
+}
+
 nav{
 	min-height:100vn;
 	width: 92%;
