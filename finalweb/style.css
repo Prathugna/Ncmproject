@@ -74,21 +74,7 @@
   height: 100%;
 }
 
-.slide.one {
-  background: rgb(182, 19, 109);
-}
-.slide.two {
-  background: rgb(255, 64, 64);
-}
-.slide.three {
-  background: rgb(11, 173, 188);
-}
-.slide.four {
-  background: rgb(11, 188, 14);
-}
-.slide.five {
-  background: rgb(173, 11, 188);
-}
+
 @keyframes sliding {
   0% {
     transform: translateX(0%);
